@@ -1,0 +1,7 @@
+project_name: ravel-init
+builds:
+  - env: [CGO_ENABLED=0]
+    goos:
+      - linux
+    goarch:
+      - amd64
